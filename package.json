@@ -2,8 +2,16 @@
   "name": "git-iteration",
   "version": "0.0.1",
   "main": "index.js",
+  "description": "CLI utilities for git-flow based iteration development.",
   "repository": "git@github.com:awmleer/git-iteration.git",
   "author": "awmleer <awmleer@sparker.xyz>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "bin": {
+    "gi": "index.js",
+    "git-iteration": "index.js"
+  },
+  "dependencies": {
+    "yargs": "^12.0.5"
+  }
 }
